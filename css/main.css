@@ -9,16 +9,19 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("../assets/main-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 main {
     max-width: 1920px;
     width: 100%;
     height: 100vh;
     padding: 0 70px;
     margin: auto;
-    background-image: url("../assets/main-background.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .header {
